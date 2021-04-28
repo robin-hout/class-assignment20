@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-div {
+    margin: 10px 15px;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.t-center{
+    text-align: center;
+}
+
+.t-right{
+    text-align: right;
+}
+
+/* header section */
+
+.header{
+    padding: 25px;
+}
+.header ul{list-style: none;}
+.header ul li {display: inline-block;background-color: gainsboro;}
+.header ul li a{text-decoration: none;text-transform: capitalize;color: black;display: inline-block;padding: 10px 20px;}
+
+/* header content */
+.h-content {
+    background-color: #6b303014;
+    padding: 20px 0;
+    margin-bottom: 10px;
+}
+
+.h-content h2{
+    color: #841414;
+    text-transform: capitalize;
+    padding: 5px 0;
+}
+
+.h-content p{font-size: small;margin-bottom: 10px;}
+
+/* banner section */
+
+.baner{}
+
+.b-left{float: left;width: 45%;}
+
+.b-right{text-align: left;/*! width: 53%; *//*! float: right; */}
+
+.b-right h2{background-color: #dddddd;}
+
+.b-right small{}
+
+.about{
+    color: red;
+}
+
+.b-right h4{
+    margin-top: 15px;
+}
+
+.b-right ul{}
+
+.b-right ul li{}
+
+/* servic section */
+
+.service{
+    border-bottom: 2px solid black;
+}
+
+.robin{
+    text-align: center;
+}
+
+.robin span {
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 40px;
+    padding: 10px;
+    margin: 15px 0;
+    background-color: #dddddd;
+}
+
+
+.serv{
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-right: 15px;
+    background-color: #dddddd;
+    padding: 25px;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+/* foter section */
+
+.f-botom{text-align: center;background-color: #dddddd;margin-bottom: 30px;padding: 20px 0;}
+.f-botom p{/*! padding: 10px; */display: inline-block;font-size: small;}
+.f-botom h1{/*! padding: 10px; */}
